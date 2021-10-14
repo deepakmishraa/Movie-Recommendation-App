@@ -1,0 +1,87 @@
+.BgHeader{
+    --background: #1d1b1b !important;
+}
+.center{
+    text-align: center;
+}
+.Icon{
+    color: black;
+    --background:black;
+    text-align: center;
+}
+.Header{
+    
+    margin-top: 10px;
+    text-align: center !important;
+    font-weight: bolder;
+    font-size: 25px;
+    color:#ec4d37 !important;
+
+}
+
+
+.Bg{
+    --background:#1d1b1b;
+}
+
+/* Container */
+
+.container{
+    overflow: hidden;
+    width: 96%;
+    height: auto;
+    scroll-behavior: auto;
+    margin: 1em auto;
+    display: flex;
+}
+.grid{
+    margin-left: auto;
+    margin-right: auto;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 0.5em;
+}
+
+.container a {
+    text-decoration: none;
+    background-color: black;
+    margin: 5px !important;
+  
+  }
+  a
+    {
+        border: 1px solid black ;
+        color: rgb(255, 255, 255) !important;
+        margin: 6px;
+        padding: 5px;
+        font-weight: bold;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+
+    }
+  
+  
+  .pagination{
+      letter-spacing: 0px;
+      background: rgb(20, 20, 20); 
+      padding: 15px !important;
+      text-align: center
+     
+  };
+  .searchbox{
+      /* width: 50% !important; */
+      border:  2px solid white !important;
+      --background: rgb(2, 110, 110) !important;
+      box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px !important;
+
+  }
+  .serchdiv{
+    box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px !important;
+    /* border: 2px solid white; */
+      border-radius: 30px;
+      padding: 0px;
+      color: white !important;
+      margin-top: 10px;
+      margin-bottom: 10px;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
